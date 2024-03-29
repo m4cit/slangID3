@@ -28,7 +28,7 @@ Currently the **best performer** is the **Logistic Regression model** with an **
 
 # How to run slangID3
 
-Download the .exe file under "Releases", **OR**
+Download the .exe file under "Releases", **or**
 
 1. Install Python **3.10** or later.
 2. Install the required packages by running `pip install -r requirements.txt` in your shell of choice. Make sure you are in the project directory.
@@ -36,9 +36,9 @@ Download the .exe file under "Releases", **OR**
 
 **Note:** It might take a while to load. Be patient.
 
-# Screenshot
+# Gallery
 
-![slangID2.0](misc/slangID2.0v1.1_screenshot.png)
+![slangID3 Icon](misc/gallery/slangID3_icon.png)
 
 # Source of the data
 
@@ -48,4 +48,6 @@ Most of the phrases come from archive.org's [Twitter Stream of June 6th](https:/
 
 * scikit-learn
 * pandas
+* tqdm
+* pyinstaller
 
