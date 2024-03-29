@@ -48,6 +48,7 @@ Most of the phrases come from archive.org's [Twitter Stream of June 6th](https:/
 # Recognition of Open Source use
 
 * scikit-learn
+* customtkinter
 * pandas
 * tqdm
 * pyinstaller
