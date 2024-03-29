@@ -39,7 +39,7 @@ Download the .exe file under "Releases", **or**
 
 # Gallery
 
-<slangID3 Icon src='https://github.com/m4cit/slangID3/blob/main/misc/gallery/slangID3_icon.png' width='20'>
+<slangID3 Icon src='https://github.com/m4cit/slangID3/blob/main/misc/gallery/slangID3_icon.png' height="20" width='20'>
 
 ![slangID3 Prediction](misc/gallery/slangID3_predict.png)
 
