@@ -41,6 +41,10 @@ Download the .exe file under "Releases", **or**
 
 ![slangID3 Icon](misc/gallery/slangID3_icon.png)
 
+![slangID3 Prediction](misc/gallery/slangID3_predict.png)
+
+![slangID3 Demo](misc/gallery/slangID3_demo.png)
+
 # Source of the data
 
 Most of the phrases come from archive.org's [Twitter Stream of June 6th](https://archive.org/details/archiveteam-twitter-stream-2021-06).
