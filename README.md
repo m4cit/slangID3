@@ -45,11 +45,9 @@ On GitHub, you can use HTML directly instead of Markdown:
 
 <img src='https://raw.githubusercontent.com/m4cit/slangID3/main/misc/gallery/slangID3_icon.png' height="120">
 
-<img src='https://raw.githubusercontent.com/m4cit/slangID3/main/misc/gallery/slangID3_predict.png' width="900">
+<img src='https://raw.githubusercontent.com/m4cit/slangID3/main/misc/gallery/slangID3_pred.png' width="900">
 
-![slangID3 Prediction](misc/gallery/slangID3_predict.png)
-
-![slangID3 Demo](misc/gallery/slangID3_demo.png)
+![slangID3 Demo](misc/gallery/slangID3_dm.png)
 
 # Source of the data
 
