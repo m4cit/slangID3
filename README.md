@@ -37,6 +37,7 @@ Download the .exe file under "Releases", **or**
 
 **Note:** It might take a while to load. Be patient.
 
+
 # Gallery
 
 <img src='https://raw.githubusercontent.com/m4cit/slangID3/main/misc/gallery/slangID3_icon.png' height="120">
