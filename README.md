@@ -40,10 +40,13 @@ Download the .exe file under "Releases", **or**
 
 # Gallery
 
+Icon:
 <img src='https://raw.githubusercontent.com/m4cit/slangID3/main/misc/gallery/slangID3_icon.png' height="120">
 
+Prediction:
 <img src='https://raw.githubusercontent.com/m4cit/slangID3/main/misc/gallery/slangID3_pred.png' width="900">
 
+Demo:
 <img src='https://raw.githubusercontent.com/m4cit/slangID3/main/misc/gallery/slangID3_dm.png' width="900">
 
 
