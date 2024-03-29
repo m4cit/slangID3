@@ -39,7 +39,7 @@ Download the .exe file under "Releases", **or**
 
 # Gallery
 
-<slangID3 Icon src='misc/gallery/slangID3_icon.png' width='50'>
+<slangID3 Icon src='misc/gallery/slangID3_icon.png' width='50'/>
 
 ![slangID3 Prediction](misc/gallery/slangID3_predict.png)
 
