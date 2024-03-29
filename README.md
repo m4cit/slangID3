@@ -43,7 +43,7 @@ Download the .exe file under "Releases", **or**
 
 On GitHub, you can use HTML directly instead of Markdown:
 
-<img src='https://raw.githubusercontent.com/m4cit/slangID3/main/misc/gallery/slangID3_icon.png' height="80">
+<img src='https://raw.githubusercontent.com/m4cit/slangID3/main/misc/gallery/slangID3_icon.png' height="120">
 
 ![slangID3 Prediction](misc/gallery/slangID3_predict.png)
 
