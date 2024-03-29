@@ -28,9 +28,7 @@ Currently the **best performer** is the **Logistic Regression model** with an **
 
 # How to run slangID3
 
-Download the .exe file under "Releases"
-
-            **OR**
+Download the .exe file under "Releases", **OR**
 
 1. Install Python **3.10** or later.
 2. Install the required packages by running `pip install -r requirements.txt` in your shell of choice. Make sure you are in the project directory.
