@@ -39,15 +39,12 @@ Download the .exe file under "Releases", **or**
 
 # Gallery
 
-
-
-On GitHub, you can use HTML directly instead of Markdown:
-
 <img src='https://raw.githubusercontent.com/m4cit/slangID3/main/misc/gallery/slangID3_icon.png' height="120">
 
 <img src='https://raw.githubusercontent.com/m4cit/slangID3/main/misc/gallery/slangID3_pred.png' width="900">
 
-![slangID3 Demo](misc/gallery/slangID3_dm.png)
+<img src='https://raw.githubusercontent.com/m4cit/slangID3/main/misc/gallery/slangID3_dm.png' width="900">
+
 
 # Source of the data
 
