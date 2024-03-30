@@ -152,10 +152,6 @@ root.geometry("1600x800")
 root.title("slangID3")
 root.grid_columnconfigure((0), weight=1)
 root.grid_columnconfigure((1), weight=1)
-root.grid_columnconfigure((2), weight=1)
-root.grid_columnconfigure((3), weight=1)
-root.grid_columnconfigure((4), weight=1)
-root.grid_columnconfigure((5), weight=1)
 
 root.grid_rowconfigure((0), weight=1)
 root.grid_rowconfigure((1), weight=1)
@@ -169,7 +165,7 @@ output = ctk.CTkTextbox(root, font=("Calibri", 20), width=780, fg_color="#3d3d3d
 output.grid(row=0, column=1, rowspan=5, columnspan=5, padx=15, pady=(10, 10), sticky="nwes")
 
 checkbox_frame = ctk.CTkFrame(root, fg_color="transparent", border_color="#8388d6", border_width=2)
-checkbox_frame.grid(row=1, rowspan=4, column=0, columnspan=3, padx=305, pady=(10, 0), sticky="nw")
+checkbox_frame.grid(row=1, rowspan=3, column=0, columnspan=2, padx=515, pady=(10, 0), sticky="nsw")
 
 # field for text input
 phrase_entry = ctk.CTkTextbox(root, font=("Calibri", 20), width=771, height=50, fg_color="#3d3d3d", border_width=8, border_color="#27b9ff", text_color="#e4e4e4", scrollbar_button_color="#e4e4e4")
@@ -195,22 +191,22 @@ use_button = ctk.CTkButton(root, command=lambda: predictor_all([phrase_entry.get
 use_button.grid(row=1, rowspan=1, column=0, padx=15, pady=10, sticky="nsw")
 
 train_button = ctk.CTkButton(root, command=lambda: ([train_all(svm_checkbox.get(), dt_checkbox.get(), nbg_checkbox.get(), nbm_checkbox.get(), log_checkbox.get())]), text="Train", font=("Calibri", 22,"bold"), text_color="black", fg_color="#27b9ff", hover_color="#b6c2fe", border_width=2, border_color="#e4e4e4", border_spacing=10)
-train_button.grid(row=1, rowspan=1, column=0, padx=160, pady=10, sticky="nsw")
+train_button.grid(row=1, rowspan=1, column=0, padx=170, pady=10, sticky="nsw")
 
 augment_button = ctk.CTkButton(root, command=lambda: openfileAugment(aug_entry.get()), text="Augment\nData", font=("Calibri", 20,"bold"), text_color="white", fg_color="#8388d6", hover_color="#95a8fe", border_width=2, border_spacing=10, border_color="#e4e4e4")
 augment_button.grid(row=2, column=0, rowspan=1, padx=15, pady=10, sticky="nsw")
 
 preprocess_button = ctk.CTkButton(root, command=lambda: openfilePP(), text="Preprocess\nData", font=("Calibri", 20,"bold"), text_color="white", fg_color="#8388d6", hover_color="#95a8fe", border_width=2, border_spacing=10, border_color="#e4e4e4")
-preprocess_button.grid(row=3, column=0, rowspan=1, padx=15, pady=10, sticky="nsw")
+preprocess_button.grid(row=3, column=0, rowspan=1, padx=20, pady=10, sticky="nsw")
 
 demo_train_button = ctk.CTkButton(root, command=lambda: dm_train_all(), text="Train\nDEMO", font=("Calibri", 20,"bold"), text_color="white", fg_color="#8388d6", hover_color="#95a8fe", border_width=2, border_spacing=10, border_color="#e4e4e4")
-demo_train_button.grid(row=3, column=0, rowspan=1, padx=170, pady=10, sticky="nsw")
+demo_train_button.grid(row=3, column=0, rowspan=1, padx=175, pady=10, sticky="nsw")
 
 demo_button = ctk.CTkButton(root, command=lambda: dm_predict_all(), text="DEMO", font=("Calibri", 20,"bold"), text_color="white", fg_color="#8388d6", hover_color="#95a8fe", border_width=2, border_spacing=10, border_color="#e4e4e4")
-demo_button.grid(row=3, column=0, rowspan=1, padx=325, pady=10, sticky="nsw")
+demo_button.grid(row=3, column=0, rowspan=1, padx=330, pady=10, sticky="nsw")
 
 clear_button = ctk.CTkButton(root, command=lambda: clear(), text="Clear Output", font=("Calibri", 20,"bold"), text_color="white", fg_color="#bf0606", hover_color="#930b0b", border_width=2, border_spacing=10, border_color="#e4e4e4")
-clear_button.grid(row=2, column=0, rowspan=1, padx=325, pady=10, sticky="nsw")
+clear_button.grid(row=1, column=0, rowspan=1, padx=325, pady=10, sticky="nsw")
 
 
 svm_checkbox = ctk.CTkCheckBox(checkbox_frame, command=lambda: check_svm(svm_checkbox.get()), text="Linear SVM", font=("Calibri", 20,"bold"), text_color="white", corner_radius=10, fg_color="#b6c2fe", hover_color="#99c8fc", border_color="white")
@@ -223,13 +219,13 @@ nbg_checkbox = ctk.CTkCheckBox(checkbox_frame, command=lambda: check_naive_g(nbg
 nbg_checkbox.grid(row=3, column=0, padx=10, pady=(10,0), sticky="nsw")
 
 nbm_checkbox = ctk.CTkCheckBox(checkbox_frame, command=lambda: check_naive_m(nbm_checkbox.get()), text="Naive Bayes (Multinomial)", font=("Calibri", 20,"bold"), text_color="white", corner_radius=10, fg_color="#b6c2fe", hover_color="#99c8fc", border_color="white")
-nbm_checkbox.grid(row=4, column=0, padx=10, pady=(10,10), sticky="nsw")
+nbm_checkbox.grid(row=4, column=0, padx=10, pady=(10,0), sticky="nsw")
 
 log_checkbox = ctk.CTkCheckBox(checkbox_frame, command=lambda: check_log(log_checkbox.get()), text="Logistic Regression", font=("Calibri", 20,"bold"), text_color="white", corner_radius=10, fg_color="#b6c2fe", hover_color="#99c8fc", border_color="white")
-log_checkbox.grid(row=1, column=1, padx=10, pady=(10,0), sticky="nsw")
+log_checkbox.grid(row=5, column=0, padx=10, pady=(10,0), sticky="nsw")
 
 select_all_checkbox = ctk.CTkCheckBox(checkbox_frame, command=lambda: (svm_checkbox.toggle(),dt_checkbox.toggle(),nbg_checkbox.toggle(),nbm_checkbox.toggle(),log_checkbox.toggle()), text="All models", font=("Calibri", 20,"bold"), text_color="white", border_color="red", corner_radius=10, fg_color="#b6c2fe", hover_color="#99c8fc")
-select_all_checkbox.grid(row=2, column=1, padx=10, pady=(10,0), sticky="nsw")
+select_all_checkbox.grid(row=6, column=0, padx=10, pady=(10,10), sticky="nsw")
 ################################################################################################################################
 
 root.mainloop()
