@@ -47,7 +47,7 @@ Currently the **best performer** is the **Logistic Regression model** with an **
 _____________________________________________________________________________________________________________________________
 **Icon**
 
-<img src='https://raw.githubusercontent.com/m4cit/slangID3/main/misc/gallery/slangID3_icon.png' height="120">
+<img src='https://raw.githubusercontent.com/m4cit/slangID3/main/misc/gallery/slangID3_icon.png' height="120"> 
 
 _____________________________________________________________________________________________________________________________
 
