@@ -197,13 +197,13 @@ augment_button = ctk.CTkButton(root, command=lambda: openfileAugment(aug_entry.g
 augment_button.grid(row=2, column=0, rowspan=1, padx=15, pady=10, sticky="nsw")
 
 preprocess_button = ctk.CTkButton(root, command=lambda: openfilePP(), text="Preprocess\nData", font=("Calibri", 20,"bold"), text_color="white", fg_color="#8388d6", hover_color="#95a8fe", border_width=2, border_spacing=10, border_color="#e4e4e4")
-preprocess_button.grid(row=3, column=0, rowspan=1, padx=20, pady=10, sticky="nsw")
+preprocess_button.grid(row=3, column=0, rowspan=1, padx=15, pady=10, sticky="nsw")
 
 demo_train_button = ctk.CTkButton(root, command=lambda: dm_train_all(), text="Train\nDEMO", font=("Calibri", 20,"bold"), text_color="white", fg_color="#8388d6", hover_color="#95a8fe", border_width=2, border_spacing=10, border_color="#e4e4e4")
-demo_train_button.grid(row=3, column=0, rowspan=1, padx=175, pady=10, sticky="nsw")
+demo_train_button.grid(row=3, column=0, rowspan=1, padx=170, pady=10, sticky="nsw")
 
 demo_button = ctk.CTkButton(root, command=lambda: dm_predict_all(), text="DEMO", font=("Calibri", 20,"bold"), text_color="white", fg_color="#8388d6", hover_color="#95a8fe", border_width=2, border_spacing=10, border_color="#e4e4e4")
-demo_button.grid(row=3, column=0, rowspan=1, padx=330, pady=10, sticky="nsw")
+demo_button.grid(row=3, column=0, rowspan=1, padx=325, pady=10, sticky="nsw")
 
 clear_button = ctk.CTkButton(root, command=lambda: clear(), text="Clear Output", font=("Calibri", 20,"bold"), text_color="white", fg_color="#bf0606", hover_color="#930b0b", border_width=2, border_spacing=10, border_color="#e4e4e4")
 clear_button.grid(row=1, column=0, rowspan=1, padx=325, pady=10, sticky="nsw")
@@ -213,19 +213,19 @@ svm_checkbox = ctk.CTkCheckBox(checkbox_frame, command=lambda: check_svm(svm_che
 svm_checkbox.grid(row=1, column=0, padx=10, pady=(10,0), sticky="nsw")
 
 dt_checkbox = ctk.CTkCheckBox(checkbox_frame, command=lambda: check_dec(dt_checkbox.get()), text="Decision Tree", font=("Calibri", 20,"bold"), text_color="white", corner_radius=10, fg_color="#b6c2fe", hover_color="#99c8fc", border_color="white")
-dt_checkbox.grid(row=2, column=0, padx=10, pady=(10,0), sticky="nsw")
+dt_checkbox.grid(row=2, column=0, padx=10, pady=(15,0), sticky="nsw")
 
 nbg_checkbox = ctk.CTkCheckBox(checkbox_frame, command=lambda: check_naive_g(nbg_checkbox.get()), text="Naive Bayes (Gaussian)", font=("Calibri", 20,"bold"), text_color="white", corner_radius=10, fg_color="#b6c2fe", hover_color="#99c8fc", border_color="white")
-nbg_checkbox.grid(row=3, column=0, padx=10, pady=(10,0), sticky="nsw")
+nbg_checkbox.grid(row=3, column=0, padx=10, pady=(15,0), sticky="nsw")
 
 nbm_checkbox = ctk.CTkCheckBox(checkbox_frame, command=lambda: check_naive_m(nbm_checkbox.get()), text="Naive Bayes (Multinomial)", font=("Calibri", 20,"bold"), text_color="white", corner_radius=10, fg_color="#b6c2fe", hover_color="#99c8fc", border_color="white")
-nbm_checkbox.grid(row=4, column=0, padx=10, pady=(10,0), sticky="nsw")
+nbm_checkbox.grid(row=4, column=0, padx=10, pady=(15,0), sticky="nsw")
 
 log_checkbox = ctk.CTkCheckBox(checkbox_frame, command=lambda: check_log(log_checkbox.get()), text="Logistic Regression", font=("Calibri", 20,"bold"), text_color="white", corner_radius=10, fg_color="#b6c2fe", hover_color="#99c8fc", border_color="white")
-log_checkbox.grid(row=5, column=0, padx=10, pady=(10,0), sticky="nsw")
+log_checkbox.grid(row=5, column=0, padx=10, pady=(15,0), sticky="nsw")
 
 select_all_checkbox = ctk.CTkCheckBox(checkbox_frame, command=lambda: (svm_checkbox.toggle(),dt_checkbox.toggle(),nbg_checkbox.toggle(),nbm_checkbox.toggle(),log_checkbox.toggle()), text="All models", font=("Calibri", 20,"bold"), text_color="white", border_color="red", corner_radius=10, fg_color="#b6c2fe", hover_color="#99c8fc")
-select_all_checkbox.grid(row=6, column=0, padx=10, pady=(10,10), sticky="nsw")
+select_all_checkbox.grid(row=6, column=0, padx=10, pady=(15,10), sticky="nsw")
 ################################################################################################################################
 
 root.mainloop()
