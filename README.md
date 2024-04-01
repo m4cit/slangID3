@@ -25,7 +25,7 @@ In total, there are five classifiers you can choose from:
 
 Currently the **best performer** is the **Logistic Regression model** with an **F<sub>1</sub> score of ~96.10%**
 
-(with augmented data of size 50. Might change with more diverse data. Currently biased towards "slang".)
+(on the test set, with augmented data of size 50. Might change with more diverse data. Currently biased towards "slang".)
 
 # How to run slangID3
 
