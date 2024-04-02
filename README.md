@@ -16,18 +16,18 @@ Or you can pass a phrase and see what type it, and the individual words are iden
 # Augmentation
 I categorized the slang words as:
 * \<pex> personal expressions
-* <n> singular nouns
-* <npl> plural nouns
-* <shnpl> shortened plural nouns
-* <mwn> multiword nouns
-* <mwexn> multiword nominal expressions
-* <en> exaggerated nouns
-* <eex> (exaggerated) expressions
-* <adj> adjectives
-* <eadj> exaggerated adjectives
-* <sha> shortened adjectives
-* <shmex> shortened (multiword) expressions
-* <v> infinitive verb
+* \<n> singular nouns
+* \<npl> plural nouns
+* \<shnpl> shortened plural nouns
+* \<mwn> multiword nouns
+* \<mwexn> multiword nominal expressions
+* \<en> exaggerated nouns
+* \<eex> (exaggerated) expressions
+* \<adj> adjectives
+* \<eadj> exaggerated adjectives
+* \<sha> shortened adjectives
+* \<shmex> shortened (multiword) expressions
+* \<v> infinitive verb
 (not all tags are available due to the small dataset)
 
 
