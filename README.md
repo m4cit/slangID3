@@ -5,7 +5,7 @@ You can train a selection of classifiers, and print out a test set of phrases wi
 Or you can pass a phrase and see what type it, and the individual words are identified as. All the models are pre-trained, but you can re-train if needed.
 
 
-# What's new?
+## What's new?
 * New GUI with a modern look
 * Integrated output window
 * Data Augmentation to obtain larger data artificially (currently very limited)
@@ -13,7 +13,7 @@ Or you can pass a phrase and see what type it, and the individual words are iden
 * New data formatting
 * New preprocessing
 
-# Augmentation
+## Augmentation
 I categorized the slang words as:
 * \<pex> personal expressions
 * \<n> singular nouns
@@ -31,11 +31,11 @@ I categorized the slang words as:
 (not all tags are available due to the small dataset)
 
 
-# Preprocessing
+## Preprocessing
 The preprocessing script removes the slang tags and brackets.
 
 
-# Performance
+## Performance
 In total, there are five classifiers you can choose from:
 
 * Linear SVM (SVC with linear Kernel)
@@ -48,7 +48,7 @@ Currently the **best performer** is the **Logistic Regression model** with an **
 (on the test set, with augmented data of size 50. Might change with more diverse data. Currently biased towards "slang".)
 
 
-# How to run slangID3
+## How to run slangID3
 1. Download the **slangID3.exe** and the **.zip** file under "Releases"
 2. Unzip the **.zip** file
 3. Move **slangID3.exe** to the unzipped folder
@@ -62,7 +62,7 @@ Currently the **best performer** is the **Logistic Regression model** with an **
 **Note:** It might take a while to load. Be patient.
 
 
-# Gallery
+## Gallery
 
 **Icon**
 
@@ -79,11 +79,11 @@ Currently the **best performer** is the **Logistic Regression model** with an **
 <img src='https://raw.githubusercontent.com/m4cit/slangID3/main/misc/gallery/slangID3_dm.png' width="900">
 
 
-# Source of the data
+## Source of the data
 Most of the phrases come from archive.org's [Twitter Stream of June 6th](https://archive.org/details/archiveteam-twitter-stream-2021-06).
 
 
-# Recognition of Open Source use
+## Recognition of Open Source use
 * scikit-learn
 * customtkinter
 * pandas
