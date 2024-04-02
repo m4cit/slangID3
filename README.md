@@ -31,6 +31,10 @@ I categorized the slang words as:
 (not all tags are available due to the small dataset)
 
 
+# Preprocessing
+The preprocessing script removes the slang tags and brackets.
+
+
 # Performance
 In total, there are five classifiers you can choose from:
 
