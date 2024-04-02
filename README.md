@@ -64,24 +64,17 @@ Currently the **best performer** is the **Logistic Regression model** with an **
 
 # Gallery
 
-_____________________________________________________________________________________________________________________________
 **Icon**
-
 <img src='https://raw.githubusercontent.com/m4cit/slangID3/main/misc/gallery/slangID3_icon.png' height="120">
 
-_____________________________________________________________________________________________________________________________
-**Prediction**
 
+**Prediction**
 <img src='https://raw.githubusercontent.com/m4cit/slangID3/main/misc/gallery/slangID3_pred.png' width="900">
 
-_____________________________________________________________________________________________________________________________
 
-_____________________________________________________________________________________________________________________________
 **Demo**
 
 <img src='https://raw.githubusercontent.com/m4cit/slangID3/main/misc/gallery/slangID3_dm.png' width="900">
-
-_____________________________________________________________________________________________________________________________
 
 
 # Source of the data
