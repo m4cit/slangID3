@@ -36,7 +36,7 @@ The preprocessing script removes the slang tags and brackets.
 
 
 ## Performance
-In total, there are five classifiers you can choose from:
+In total, there are five classifiers you can choose from (for now):
 
 * Linear SVM (SVC with linear Kernel)
 * Decision Tree
