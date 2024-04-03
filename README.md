@@ -29,6 +29,7 @@ I categorized the slang words as:
 * \<sha> shortened adjectives
 * \<shmex> shortened (multiword) expressions
 * \<v> infinitive verb
+* 
 (not all tags are available due to the small dataset)
 
 
