@@ -37,7 +37,7 @@ The preprocessing script removes the slang tags and brackets.
 
 
 ## Issues
-The training dataset is still too small, resulting in overfitting.
+The training dataset is still too small, resulting in overfitting (after augmentation).
 
 
 ## Performance
