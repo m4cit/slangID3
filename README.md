@@ -41,6 +41,11 @@ The preprocessing script removes the slang tags and brackets.
 The training dataset is still too small, resulting in overfitting (after augmentation).
 
 
+## Usage
+Preprocessing is the last step before training a model. 
+If you want to use the original dataset **_data.csv_** or the augmented dataset **_augmented_data.csv_**, use the preprocessing before training.
+
+
 ## Performance
 In total, there are five classifiers you can choose from (for now):
 
