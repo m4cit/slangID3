@@ -13,6 +13,7 @@ Or you can pass a phrase and see what type it, and the individual words are iden
 * New data formatting
 * New preprocessing
 
+
 ## Augmentation
 I categorized the slang words as:
 * \<pex> personal expressions
@@ -35,6 +36,10 @@ I categorized the slang words as:
 The preprocessing script removes the slang tags and brackets.
 
 
+## Issues
+The training dataset is still too small, resulting in overfitting.
+
+
 ## Performance
 In total, there are five classifiers you can choose from (for now):
 
@@ -45,7 +50,7 @@ In total, there are five classifiers you can choose from (for now):
 * Logistic Regression
 
 Currently the **best performer** is the **Logistic Regression model** with an **F<sub>1</sub> score of ~96.10%**
-(on the test set, with augmented data of size "50". Might change with more diverse data. Currently biased towards "slang".)
+(on the test set, with augmented data of size "50". Might change with more diverse data. Currently biased towards "slang". Severly overfitted.)
 
 
 ## How to run slangID3
