@@ -56,8 +56,8 @@ In total, there are five models you can choose from (for now):
 * Multinomial Naive Bayes
 * Logistic Regression
 
-Currently the **best performer** is the **Logistic Regression model** with an **F<sub>1</sub> score of ~96.10%**
-(on the test set, with augmented data of size "50". Might change with more diverse data. Currently biased towards "slang". Severly overfitted.)
+Currently the **best performer** is the **Decision Tree model** with an **F<sub>1</sub> score of ~68.97%**
+(on the test set, with original data)
 
 
 ## How to run slangID3
