@@ -48,7 +48,7 @@ If you want to use the original dataset **_data.csv_** or the augmented dataset 
 
 
 ## Performance
-In total, there are five classifiers you can choose from (for now):
+In total, there are five models you can choose from (for now):
 
 * Linear SVM (SVC with linear Kernel)
 * Decision Tree
