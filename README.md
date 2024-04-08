@@ -34,7 +34,7 @@ I categorized the slang words as:
 
 
 ## Preprocessing
-The preprocessing script removes the slang tags and brackets.
+The preprocessing script removes the slang tags, brackets, hyphens, and converts everything to lowercase.
 
 
 ## Issues
