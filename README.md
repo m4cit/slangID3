@@ -16,7 +16,7 @@ Or you can pass a phrase and see what type it, and the individual words are iden
 
 ## Augmentation
 I categorized the slang words as:
-* \<pex> personal expressions; _dude_, _one and only_, _bro_
+* \<pex> personal expressions; (_dude_, _one and only_, _bro_)
 * \<n> singular nouns; _shit_
 * \<npl> plural nouns; _crybabies_
 * \<shnpl> shortened plural nouns; _ppl_
