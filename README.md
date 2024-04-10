@@ -9,7 +9,7 @@ Or you can pass a phrase and see what type it, and the individual words are iden
 * New GUI with a modern look
 * Integrated output window
 * Data Augmentation to obtain larger data artificially (currently very limited)
-* Individual word analysis with seperately trained models
+* Individual word evaluation
 * New data formatting
 * New preprocessing
 
