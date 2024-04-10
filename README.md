@@ -28,7 +28,7 @@ I categorized the slang words as:
 * \<eadj> exaggerated adjectives;  ( _weirdddddd_ )
 * \<sha> shortened adjectives;  ( _on_ )
 * \<shmex> shortened (multiword) expressions;  ( _tbh_, _imo_ )
-* \<v> infinitive verb;  ( _trigger_ )
+* \<v> infinitive verb;  [ _trigger_ ]
 
 (not all tags are available due to the small dataset)
 
