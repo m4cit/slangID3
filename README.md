@@ -66,6 +66,7 @@ Currently the **best performers** are the **Decision Tree** and **Naive Bayes (G
 3. Move **slangID3.exe** to the unzipped folder
 
    **or**
+   
 
 1. Install Python **3.10** or later.
 2. Install the required packages by running **`pip install -r requirements.txt`** in your shell of choice. Make sure you are in the project directory.
