@@ -56,7 +56,7 @@ In total, there are five models you can choose from (for now):
 * Multinomial Naive Bayes
 * Logistic Regression
 
-Currently the **best performers** are the **Decision Tree** and **Naive Bayes (Gaussian)** models with an **F<sub>1</sub> score of 64%**
+Currently the **best performers** is the **Linear SVM** model with an **F<sub>1</sub> score of 71.4%**
 (on the test set, with the original training data)
 
 
