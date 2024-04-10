@@ -57,7 +57,7 @@ In total, there are five models you can choose from (for now):
 * Logistic Regression
 
 Currently the **best performers** are the **Decision Tree** and **Naive Bayes (Gaussian)** models with an **F<sub>1</sub> score of 64%**
-(on the test set, with original data)
+(on the test set, with the original training data)
 
 
 ## How to run slangID3
