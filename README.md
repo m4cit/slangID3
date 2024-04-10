@@ -16,19 +16,19 @@ Or you can pass a phrase and see what type it, and the individual words are iden
 
 ## Augmentation
 I categorized the slang words as:
-* \<pex> personal expressions
-* \<n> singular nouns
-* \<npl> plural nouns
-* \<shnpl> shortened plural nouns
-* \<mwn> multiword nouns
-* \<mwexn> multiword nominal expressions
-* \<en> exaggerated nouns
-* \<eex> (exaggerated) expressions
-* \<adj> adjectives
-* \<eadj> exaggerated adjectives
-* \<sha> shortened adjectives
-* \<shmex> shortened (multiword) expressions
-* \<v> infinitive verb
+* \<pex> personal expressions; _dude_, _one and only_, _bro_
+* \<n> singular nouns; _shit_
+* \<npl> plural nouns; _crybabies_
+* \<shnpl> shortened plural nouns; _ppl_
+* \<mwn> multiword nouns; _certified vaccine freak_
+* \<mwexn> multiword nominal expressions; _a good one_
+* \<en> exaggerated nouns; _guysssss_
+* \<eex> (exaggerated) expressions; _hahaha_, _lmao_
+* \<adj> adjectives; _retarded_
+* \<eadj> exaggerated adjectives; _weirdddddd_
+* \<sha> shortened adjectives; _on_
+* \<shmex> shortened (multiword) expressions; _tbh_, _imo_
+* \<v> infinitive verb; _trigger_
 
 (not all tags are available due to the small dataset)
 
