@@ -23,7 +23,7 @@ I categorized the slang words as:
 * \<mwn> multiword nouns;  ( _certified vaccine freak_ )
 * \<mwexn> multiword nominal expressions;  ( _a good one_ )
 * \<en> exaggerated nouns;  ( _guysssss_ )
-* \<eex> (exaggerated) expressions;  ( _hahaha_, _aaaaaah_ )
+* \<eex> (exaggerated) expressions;  ( _hahaha_, _aaaaaah_, _lmao_ )
 * \<adj> adjectives;  ( _retarded_ )
 * \<eadj> exaggerated adjectives;  ( _weirdddddd_ )
 * \<sha> shortened adjectives;  ( _on_ )
