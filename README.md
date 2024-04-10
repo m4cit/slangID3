@@ -42,7 +42,9 @@ The training dataset is still too small, resulting in overfitting (after augment
 
 
 ## Usage
-Preprocessing is the last step before training a model. 
+You can predict with the included pre-trained models, and re-train if needed.
+
+Preprocessing is the last step before training a model.
 
 If you want to use the original dataset **_data.csv_** or the augmented dataset **_augmented_data.csv_**, use the preprocessing function before training.
 
