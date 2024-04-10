@@ -16,19 +16,19 @@ Or you can pass a phrase and see what type it, and the individual words are iden
 
 ## Augmentation
 I categorized the slang words as:
-* \<pex> personal expressions;  ( _dude_, _one and only_, _bro_ )
-* \<n> singular nouns;  ( _shit_ )
-* \<npl> plural nouns;  ( _crybabies_ )
-* \<shnpl> shortened plural nouns;  ( _ppl_ )
-* \<mwn> multiword nouns;  ( _certified vaccine freak_ )
-* \<mwexn> multiword nominal expressions;  ( _a good one_ )
-* \<en> exaggerated nouns;  ( _guysssss_ )
-* \<eex> (exaggerated) expressions;  ( _hahaha_, _aaaaaah_, _lmao_ )
-* \<adj> adjectives;  ( _retarded_ )
-* \<eadj> exaggerated adjectives;  ( _weirdddddd_ )
-* \<sha> shortened adjectives;  ( _on_ )
-* \<shmex> shortened (multiword) expressions;  ( _tbh_, _imo_ )
-* \<v> infinitive verb;  [ _trigger_ ]
+* \<pex> personal expressions; [dude, one and only, bro]
+* \<n> singular nouns; [shit]
+* \<npl> plural nouns; [crybabies]
+* \<shnpl> shortened plural nouns; [ppl]
+* \<mwn> multiword nouns; [certified vaccine freak]
+* \<mwexn> multiword nominal expressions; [a good one]
+* \<en> exaggerated nouns; [guysssss]
+* \<eex> (exaggerated) expressions; [hahaha, aaaaaah, lmao]
+* \<adj> adjectives; [retarded]
+* \<eadj> exaggerated adjectives; [weirdddddd]
+* \<sha> shortened adjectives; [on]
+* \<shmex> shortened (multiword) expressions; [tbh, imo]
+* \<v> infinitive verb; [trigger]
 
 (not all tags are available due to the small dataset)
 
