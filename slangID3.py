@@ -188,8 +188,8 @@ if __name__ == '__main__':
 
     # Buttons and checkboxes
     ################################################################################################################################
-    use_button = ctk.CTkButton(root, command=lambda: predictor_all([phrase_entry.get("1.0",ctk.END)],phrase_entry.get("1.0",ctk.END),svm_checkbox.get(),dt_checkbox.get(),nbg_checkbox.get(),nbm_checkbox.get(),log_checkbox.get()), text="Predict", font=("Calibri", 22,"bold"), text_color="black", fg_color="#27b9ff", hover_color="#b6c2fe", border_width=2, border_color="#e4e4e4", border_spacing=10)
-    use_button.grid(row=1, rowspan=1, column=0, columnspan=2, padx=15, pady=10, sticky="nsw")
+    predict_button = ctk.CTkButton(root, command=lambda: predictor_all([phrase_entry.get("1.0",ctk.END)],phrase_entry.get("1.0",ctk.END),svm_checkbox.get(),dt_checkbox.get(),nbg_checkbox.get(),nbm_checkbox.get(),log_checkbox.get()), text="Predict", font=("Calibri", 22,"bold"), text_color="black", fg_color="#27b9ff", hover_color="#b6c2fe", border_width=2, border_color="#e4e4e4", border_spacing=10)
+    predict_button.grid(row=1, rowspan=1, column=0, columnspan=2, padx=15, pady=10, sticky="nsw")
 
     train_button = ctk.CTkButton(root, command=lambda: ([train_all(svm_checkbox.get(), dt_checkbox.get(), nbg_checkbox.get(), nbm_checkbox.get(), log_checkbox.get())]), text="Train", font=("Calibri", 22,"bold"), text_color="black", fg_color="#27b9ff", hover_color="#b6c2fe", border_width=2, border_color="#e4e4e4", border_spacing=10)
     train_button.grid(row=1, rowspan=1, column=0, columnspan=2, padx=170, pady=10, sticky="nsw")
