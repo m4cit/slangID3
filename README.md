@@ -1,5 +1,5 @@
 # slangID3
-slangID3 tries to identify slang phrases...
+slangID3 tries to identify slang phrases.
 
 You can train a selection of classifiers, and print out a test set of phrases with the **DEMO** button.
 Or you can pass a phrase and see what type it, and the individual words are identified as. All the models are pre-trained, but you can re-train if needed.
