@@ -82,7 +82,7 @@ Currently the **best performer** is the **Linear SVM** model with an **F<sub>1</
 
 **or**
    
-1. Install Python **3.10** or later.
+1. Install Python **3.10** or newer.
 2. Install the required packages by running **`pip install -r requirements.txt`** in your shell of choice. Make sure you are in the project directory.
 3. Run **`python slangID3.py`**
 
