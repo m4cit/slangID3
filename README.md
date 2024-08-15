@@ -24,7 +24,7 @@ Or you can pass a phrase and see what type it, and the individual words are iden
 
 
 ## How to run slangID3
-1. Download the **slangID3.exe** and the **.zip** file under "Releases"
+1. Download the **slangID3.exe** and the **.zip** file in [_releases_](https://github.com/m4cit/slangID3/releases).
 
 2. Unzip the **.zip** file
 
