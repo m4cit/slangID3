@@ -24,11 +24,11 @@ Or you can pass a phrase and see what type it, and the individual words are iden
 
 
 ## How to run slangID3
-1. Download the **slangID3.exe** and the **.zip** file in [_releases_](https://github.com/m4cit/slangID3/releases).
+1. Download the latest **slangID3.exe** and the source code files in [_releases_](https://github.com/m4cit/slangID3/releases).
 
-2. Unzip the **.zip** file
+2. Unzip the source code file.
 
-3. Move **slangID3.exe** to the unzipped folder
+3. Move **slangID3.exe** to the unzipped folder.
 
 **or**
    
