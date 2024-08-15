@@ -1,9 +1,10 @@
 # slangID3
+<img src='https://raw.githubusercontent.com/m4cit/slangID3/main/misc/gallery/slangID3_icon.png' align="left" height="150">
 slangID3 tries to identify slang phrases.
 
 You can train a selection of classifiers, and print out a test set of phrases with the **DEMO** button.
 Or you can pass a phrase and see what type it, and the individual words are identified as. All the models are pre-trained, but you can re-train if needed.
-
+<br clear="left">
 
 ## What's new?
 * New GUI with a modern look
@@ -15,32 +16,34 @@ Or you can pass a phrase and see what type it, and the individual words are iden
 
 
 ## Gallery
-
-### Icon
-
-<img src='https://raw.githubusercontent.com/m4cit/slangID3/main/misc/gallery/slangID3_icon.png' height="120">
-
-
 ### Prediction
-
 <img src='https://raw.githubusercontent.com/m4cit/slangID3/main/misc/gallery/slangID3_pred.png' width="900">
 
-
 ### Demo
-
 <img src='https://raw.githubusercontent.com/m4cit/slangID3/main/misc/gallery/slangID3_dm.png' width="900">
 
 
 ## How to run slangID3
 1. Download the **slangID3.exe** and the **.zip** file under "Releases"
+
 2. Unzip the **.zip** file
+
 3. Move **slangID3.exe** to the unzipped folder
 
 **or**
    
 1. Install Python **3.10** or newer.
-2. Install the required packages by running **`pip install -r requirements.txt`** in your shell of choice. Make sure you are in the project directory.
-3. Run **`python slangID3.py`**
+
+2. Install the required packages by running
+   >```
+   >pip install -r requirements.txt
+   >```
+   in your shell of choice. Make sure you are in the project directory.
+
+3. Run
+   >```
+   >python slangID3.py
+   >```
 
 **Note:** It might take a while to load. Be patient.
 
